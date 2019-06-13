@@ -53,4 +53,15 @@ public class Product {
     public void setInSale(boolean inSale) {
         this.inSale = inSale;
     }
+
+    @Override
+    public String toString() {
+        return "Product{" +
+                "productId=" + productId +
+                ", description='" + description + '\'' +
+                ", price=" + price +
+                ", imageUrl='" + imageUrl + '\'' +
+                ", inSale=" + inSale +
+                '}';
+    }
 }
